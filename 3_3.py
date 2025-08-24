@@ -13,3 +13,11 @@ elif s == "Nainen" and h >= 117 and h <= 175:
 elif s == "Nainen" and h >= 175:
     print("Hemoglobiinisi on korkea")
 
+elif s == "Mies" and h <= 134:
+    print("Hemoglobiiniarvosi on alhainen")
+elif s == "Mies" and h >= 134 and h <= 195:
+    print("Hemoglobiiniarvosi on normaali")
+elif s == "Mies" and h >= 195:
+    print("Hemoglobiinisi on korkea")
+else:
+    print("Väärät tiedot")
