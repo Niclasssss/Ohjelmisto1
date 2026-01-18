@@ -1,12 +1,7 @@
-#Kirjoita ohjelma, joka kysyy suorakulmion kannan ja korkeuden.
-#Ohjelma tulostaa suorakulmion piirin ja pinta-alan.
-#Suorakulmion piiri tarkoittaa sen neljän sivun yhteispituutta.
-
-kanta = float(input("Anna suorakulmion kanta: "))
-korkeus = float(input("Anna suorakulmion korkeus: "))
-
-piiri = kanta + kanta + korkeus + korkeus
-pintaala = kanta * korkeus
-
-print(piiri)
-print(pintaala)
+lenght = float(input("Enter the lenght of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+perimeter = lenght + lenght + width + width
+area = lenght * width
+piiri = "The perimeter of the rectangle is " + str(perimeter)
+pintaala = "The area of the rectangle is " + str(area)
+print(piiri + "," + pintaala)

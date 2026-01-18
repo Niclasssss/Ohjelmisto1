@@ -1,7 +1,5 @@
-#Kirjoita ohjelma, joka kysyy ympyrän säteen ja tulostaa sen pinta-alan.
-
 import math
-
-säde = int(input("Anna ympyrän säde: "))
-A = säde * säde * math.pi
-print(A)
+radius = float(input("Enter the radius of the circle: "))
+area = radius * radius * math.pi
+pintaala = "The area of the circle is " + str(area)
+print(pintaala)
